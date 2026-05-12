@@ -1,0 +1,9 @@
+git switch main
+git pull --ff-only origin main
+git switch -c fix/0512-bug-name
+
+修完：
+
+git add 相关文件
+git commit -m "fix(api): bug summary"
+git push -u fork fix/0512-bug-name
