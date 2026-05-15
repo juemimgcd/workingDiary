@@ -7,3 +7,7 @@ git switch -c fix/0512-bug-name
 git add 相关文件
 git commit -m "fix(api): bug summary"
 git push -u fork fix/0512-bug-name
+
+
+
+powershell -ExecutionPolicy Bypass -File .\scripts\start_local_atlasclaw.ps1
